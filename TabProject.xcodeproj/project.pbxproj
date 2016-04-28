@@ -11,6 +11,7 @@
 		28232A201CC641810028BB61 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28232A1F1CC641810028BB61 /* ImageCell.xib */; };
 		28232A231CC644150028BB61 /* DoubanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28232A221CC644150028BB61 /* DoubanImageCell.m */; };
 		283F7F0B1CAE42C900963EE0 /* MySVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 283F7F0A1CAE42C900963EE0 /* MySVProgressHUD.m */; };
+		28713B221CD1A1E9003561B6 /* MyCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 28713B211CD1A1E9003561B6 /* MyCustomLayout.m */; };
 		287ACEB21C9ECF5100D5425B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287ACEB11C9ECF5100D5425B /* main.m */; };
 		287ACEB51C9ECF5100D5425B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287ACEB41C9ECF5100D5425B /* AppDelegate.m */; };
 		287ACEB81C9ECF5100D5425B /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287ACEB71C9ECF5100D5425B /* DiscoverViewController.m */; };
@@ -48,6 +49,8 @@
 		28232A221CC644150028BB61 /* DoubanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubanImageCell.m; sourceTree = "<group>"; };
 		283F7F091CAE42C900963EE0 /* MySVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySVProgressHUD.h; sourceTree = "<group>"; };
 		283F7F0A1CAE42C900963EE0 /* MySVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySVProgressHUD.m; sourceTree = "<group>"; };
+		28713B201CD1A1E9003561B6 /* MyCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomLayout.h; sourceTree = "<group>"; };
+		28713B211CD1A1E9003561B6 /* MyCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomLayout.m; sourceTree = "<group>"; };
 		287ACEAD1C9ECF5100D5425B /* TabProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287ACEB11C9ECF5100D5425B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		287ACEB31C9ECF5100D5425B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				28232A1F1CC641810028BB61 /* ImageCell.xib */,
 				28232A211CC644150028BB61 /* DoubanImageCell.h */,
 				28232A221CC644150028BB61 /* DoubanImageCell.m */,
+				28713B201CD1A1E9003561B6 /* MyCustomLayout.h */,
+				28713B211CD1A1E9003561B6 /* MyCustomLayout.m */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -414,6 +419,7 @@
 				28AFA0501CA11B8F00572251 /* MineViewController.m in Sources */,
 				287FAC001CAD7B380048FCC4 /* ImageModel.m in Sources */,
 				287ACEB81C9ECF5100D5425B /* DiscoverViewController.m in Sources */,
+				28713B221CD1A1E9003561B6 /* MyCustomLayout.m in Sources */,
 				287ACEB21C9ECF5100D5425B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,6 +564,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yan.TabProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -570,6 +577,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yan.TabProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -11,4 +11,5 @@
 @interface DoubanImageCell : UICollectionViewCell
 @property (nonatomic, strong)ImageModel *model;
 
+-(void)setImageData:(ImageModel *)image;
 @end

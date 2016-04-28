@@ -7,14 +7,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Jau-Gg-PWM">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Jau-Gg-PWM" customClass="DoubanImageCell">
             <rect key="frame" x="0.0" y="0.0" width="136" height="152"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="136" height="152"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image_column_default" translatesAutoresizingMaskIntoConstraints="NO" id="dGF-fx-v0p" userLabel="IconImage">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image_column_default" translatesAutoresizingMaskIntoConstraints="NO" id="dGF-fx-v0p" userLabel="IconImage">
                         <rect key="frame" x="0.0" y="-6" width="136" height="158"/>
                         <animations/>
                     </imageView>
@@ -23,7 +23,16 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <animations/>
+            <constraints>
+                <constraint firstItem="dGF-fx-v0p" firstAttribute="leading" secondItem="Jau-Gg-PWM" secondAttribute="leading" id="Uzz-1U-eFJ"/>
+                <constraint firstAttribute="bottom" secondItem="dGF-fx-v0p" secondAttribute="bottom" id="o82-PQ-yDQ"/>
+                <constraint firstItem="dGF-fx-v0p" firstAttribute="top" secondItem="Jau-Gg-PWM" secondAttribute="top" id="uKC-ie-ize"/>
+                <constraint firstAttribute="trailing" secondItem="dGF-fx-v0p" secondAttribute="trailing" id="zq2-7o-6gw"/>
+            </constraints>
             <size key="customSize" width="136" height="152"/>
+            <connections>
+                <outlet property="iconImage" destination="dGF-fx-v0p" id="Y3Q-Sz-2Au"/>
+            </connections>
             <point key="canvasLocation" x="353" y="8"/>
         </collectionViewCell>
     </objects>
