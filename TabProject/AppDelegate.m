@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import "MobClick.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [AVOSCloud setApplicationId:@"cB6WhGq1fzhYuTKqpTPIPj0p-gzGzoHsz" clientKey:@"p9HRFfqnjNJt6hibidke6x0x"];
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    [MobClick startWithAppkey:@"572ecc5ae0f55a6a020024f8" reportPolicy:BATCH channelId:@"default"];
+    
     return YES;
 }
 

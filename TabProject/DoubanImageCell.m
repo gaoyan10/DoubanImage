@@ -12,7 +12,7 @@
 
 @interface DoubanImageCell()
 
-@property (weak, nonatomic) IBOutlet UIImageView *iconImage;
+
 
 @end
 @implementation DoubanImageCell

@@ -1,0 +1,24 @@
+
+/* Class = "UISearchBar"; placeholder = "输入关键词，比如美女、校花"; ObjectID = "2fG-6u-IIr"; */
+"2fG-6u-IIr.placeholder" = "输入关键词，比如美女、校花";
+
+/* Class = "UIViewController"; title = "图片详情"; ObjectID = "Gsj-DG-yg6"; */
+"Gsj-DG-yg6.title" = "图片详情";
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XNI-uS-hhn"; */
+"XNI-uS-hhn.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "发现"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "发现";
+
+/* Class = "UITabBarItem"; title = "采集"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "采集";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "dvE-3x-O9k"; */
+"dvE-3x-O9k.title" = "我的";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";

@@ -10,6 +10,7 @@
 @class ImageModel;
 @interface DoubanImageCell : UICollectionViewCell
 @property (nonatomic, strong)ImageModel *model;
+@property (weak, nonatomic) IBOutlet UIImageView *iconImage;
 
 -(void)setImageData:(ImageModel *)image;
 @end

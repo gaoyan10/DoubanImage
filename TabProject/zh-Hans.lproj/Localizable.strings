@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  TabProject
+
+  Created by gaoyan on 4/30/16.
+  Copyright © 2016 gaoyan. All rights reserved.
+*/
+"keyword_dialog_title" = "请输入关键词";
+"keyword_dialog_msg" = "";
+"confirm" = "确定";
+"cancel" = "取消";
+
+"delete_dialog_title" = "删除收藏";
+"delete_dialog_msg" = "确定要删除收藏吗?";
