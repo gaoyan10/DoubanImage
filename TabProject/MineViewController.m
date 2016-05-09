@@ -32,6 +32,8 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *syncBtn;
 @property (weak, nonatomic) IBOutlet UILabel *remoteLable;
+@property (weak, nonatomic) IBOutlet UIView *seperator;
+
 @property (nonatomic, strong) NSMutableArray *tags;
 
 @property (nonatomic, strong) DocumentManager *manager;
@@ -52,6 +54,7 @@
     [_syncBtn setHidden:YES];
     [_remoteCount setHidden:YES];
     [_remoteLable setHidden:YES];
+    [_seperator setHidden:YES];
     _dbManager = [[DataManager alloc] init];
     [self getLocalCount];
     [self registerImageNotification];

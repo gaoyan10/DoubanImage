@@ -71,7 +71,7 @@ static NSString* const imageCellIdentifier = @"DoubanImageCell";
     }
     [self.collectionView.mj_header endRefreshing];
     [self.collectionView reloadData];
-    [self.collectionView setContentOffset:CGPointMake(0,  -50) animated:YES];
+    //[self.collectionView setContentOffset:CGPointMake(0,  -50) animated:YES];
     
 //    NSString * query;
 //    if (!query) {

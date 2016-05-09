@@ -68,7 +68,7 @@
                             <constraint firstItem="2fG-6u-IIr" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="qKm-uL-1Hv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="发现" image="iconfont-kebiao" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="发现" image="iconfont-discover" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="imageCollection" destination="gmY-OO-EFo" id="LEy-5g-6PH"/>
                         <outlet property="inputKeyword" destination="2fG-6u-IIr" id="lcg-v0-u5j"/>
@@ -90,20 +90,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lq6-MM-3qM" userLabel="导航栏">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <animations/>
-                                <items>
-                                    <navigationItem title="采集" id="qMG-XN-kzn"/>
-                                </items>
-                            </navigationBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ceH-D3-zBP" userLabel="收集的图片列表">
-                                <rect key="frame" x="20" y="73" width="560" height="478"/>
+                                <rect key="frame" x="20" y="4" width="560" height="547"/>
                                 <animations/>
                                 <collectionViewLayout key="collectionViewLayout" id="c7K-Xc-j0e" customClass="CHTCollectionViewWaterfallLayout"/>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="X84-6C-vFC">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="0.0" y="64" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -119,23 +112,20 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ceH-D3-zBP" firstAttribute="top" secondItem="lq6-MM-3qM" secondAttribute="bottom" constant="9" id="2pR-WX-H2c"/>
                             <constraint firstItem="ceH-D3-zBP" firstAttribute="bottom" secondItem="Djb-ko-YwX" secondAttribute="top" id="8al-JH-tdb"/>
                             <constraint firstItem="ceH-D3-zBP" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="BcD-L8-8Cy"/>
                             <constraint firstItem="ceH-D3-zBP" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="DUE-U7-g4C"/>
-                            <constraint firstItem="lq6-MM-3qM" firstAttribute="centerX" secondItem="ceH-D3-zBP" secondAttribute="centerX" id="MSZ-pY-cCs"/>
-                            <constraint firstItem="lq6-MM-3qM" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="YXx-Sq-fOJ"/>
-                            <constraint firstItem="lq6-MM-3qM" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="kBe-5b-FLb"/>
+                            <constraint firstItem="ceH-D3-zBP" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="-60" id="v5V-Ix-fIz"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="采集" image="iconfont-richeng" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" title="采集" id="XMb-YR-Y36"/>
                     <connections>
                         <outlet property="collectionView" destination="ceH-D3-zBP" id="vkz-sq-HPT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="2374" y="360"/>
         </scene>
         <!--图片详情-->
         <scene sceneID="9rI-6Z-XRu">
@@ -154,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mVA-c2-OqW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1660" y="751"/>
+            <point key="canvasLocation" x="3284" y="751"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -169,15 +159,15 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="aAz-1X-NYl" kind="relationship" relationship="viewControllers" id="y91-3d-FoV"/>
+                        <segue destination="kah-80-Tfq" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="GBg-8t-cab" kind="relationship" relationship="viewControllers" id="y91-3d-FoV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--我的-->
+        <!--我-->
         <scene sceneID="aRC-Mn-hZ4">
             <objects>
                 <viewController id="aAz-1X-NYl" customClass="MineViewController" sceneMemberID="viewController">
@@ -215,11 +205,11 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Uw-w8-m9d" userLabel="number_layout">
                                         <rect key="frame" x="-1" y="192" width="600" height="60"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="收藏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8w-Dh-YWQ">
-                                                <rect key="frame" x="57" y="20" width="34" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="采集数量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8w-Dh-YWQ">
+                                                <rect key="frame" x="23" y="20" width="68" height="21"/>
                                                 <animations/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="34" id="Uog-96-NVx"/>
+                                                    <constraint firstAttribute="width" constant="72" id="Uog-96-NVx"/>
                                                     <constraint firstAttribute="height" constant="21" id="gdm-mY-vip"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -280,7 +270,7 @@
                                             <constraint firstItem="OS9-AB-pdE" firstAttribute="centerY" secondItem="7Uw-w8-m9d" secondAttribute="centerY" id="Sun-v1-xD5"/>
                                             <constraint firstItem="LmB-mO-szA" firstAttribute="centerY" secondItem="7Uw-w8-m9d" secondAttribute="centerY" id="Tps-Oi-c6W"/>
                                             <constraint firstItem="Izr-xm-Diz" firstAttribute="leading" secondItem="4LG-W6-XTz" secondAttribute="trailing" constant="24" id="aXc-GU-A0n"/>
-                                            <constraint firstItem="D8w-Dh-YWQ" firstAttribute="leading" secondItem="7Uw-w8-m9d" secondAttribute="leading" constant="48" id="naZ-Yh-Sw0"/>
+                                            <constraint firstItem="D8w-Dh-YWQ" firstAttribute="leading" secondItem="7Uw-w8-m9d" secondAttribute="leading" constant="36" id="naZ-Yh-Sw0"/>
                                             <constraint firstItem="LmB-mO-szA" firstAttribute="centerX" secondItem="7Uw-w8-m9d" secondAttribute="centerX" id="wvL-RS-ins"/>
                                             <constraint firstItem="OS9-AB-pdE" firstAttribute="leading" secondItem="D8w-Dh-YWQ" secondAttribute="trailing" constant="24" id="xAJ-dc-zGB"/>
                                         </constraints>
@@ -331,16 +321,6 @@
                                             <constraint firstItem="gXO-vS-o6y" firstAttribute="centerY" secondItem="XE1-Hz-t0H" secondAttribute="centerY" id="xaV-oZ-rGr"/>
                                         </constraints>
                                     </view>
-                                    <navigationBar alpha="0.0" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yi9-LP-lAe" userLabel="导航栏">
-                                        <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                        <animations/>
-                                        <textAttributes key="titleTextAttributes">
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </textAttributes>
-                                        <items>
-                                            <navigationItem title="我的" id="fAN-Rw-Bx0"/>
-                                        </items>
-                                    </navigationBar>
                                 </subviews>
                                 <animations/>
                                 <constraints>
@@ -348,16 +328,13 @@
                                     <constraint firstItem="7Uw-w8-m9d" firstAttribute="centerX" secondItem="Esb-Cf-Fyi" secondAttribute="centerX" id="59L-Z6-fbg"/>
                                     <constraint firstItem="XE1-Hz-t0H" firstAttribute="leading" secondItem="Esb-Cf-Fyi" secondAttribute="leading" id="BdH-e6-UBE"/>
                                     <constraint firstItem="7Uw-w8-m9d" firstAttribute="top" secondItem="F94-uz-y95" secondAttribute="bottom" id="CVN-W0-dxd"/>
-                                    <constraint firstItem="yi9-LP-lAe" firstAttribute="top" secondItem="F94-uz-y95" secondAttribute="top" id="EwN-Na-GcE"/>
                                     <constraint firstItem="F94-uz-y95" firstAttribute="centerX" secondItem="Esb-Cf-Fyi" secondAttribute="centerX" id="Ga0-J2-veW"/>
                                     <constraint firstItem="F94-uz-y95" firstAttribute="top" secondItem="Esb-Cf-Fyi" secondAttribute="top" id="Pbx-Cf-p9l"/>
                                     <constraint firstItem="XE1-Hz-t0H" firstAttribute="top" secondItem="7Uw-w8-m9d" secondAttribute="bottom" constant="24" id="XkK-SZ-Pea"/>
-                                    <constraint firstItem="yi9-LP-lAe" firstAttribute="leading" secondItem="Esb-Cf-Fyi" secondAttribute="leading" id="Xv9-Vs-9bs"/>
                                     <constraint firstItem="7Uw-w8-m9d" firstAttribute="leading" secondItem="Esb-Cf-Fyi" secondAttribute="leading" id="Zd9-iU-Qxy"/>
                                     <constraint firstAttribute="bottom" secondItem="XE1-Hz-t0H" secondAttribute="bottom" constant="205" id="c28-nh-7eu"/>
                                     <constraint firstItem="7Uw-w8-m9d" firstAttribute="trailing" secondItem="Esb-Cf-Fyi" secondAttribute="trailing" id="jDG-Oh-js6"/>
                                     <constraint firstItem="F94-uz-y95" firstAttribute="trailing" secondItem="XE1-Hz-t0H" secondAttribute="trailing" id="lTy-5t-zTC"/>
-                                    <constraint firstItem="yi9-LP-lAe" firstAttribute="trailing" secondItem="Esb-Cf-Fyi" secondAttribute="trailing" id="qDP-rB-fnM"/>
                                     <constraint firstItem="N28-Sz-daR" firstAttribute="centerX" secondItem="Esb-Cf-Fyi" secondAttribute="centerX" id="tT8-rD-tmr"/>
                                     <constraint firstItem="XE1-Hz-t0H" firstAttribute="trailing" secondItem="Esb-Cf-Fyi" secondAttribute="trailing" id="wvT-iu-dar"/>
                                 </constraints>
@@ -372,7 +349,7 @@
                             <constraint firstItem="Esb-Cf-Fyi" firstAttribute="top" secondItem="XuZ-Hc-2Zv" secondAttribute="top" id="rQg-Ni-Fhr"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="我的" image="iconfont-wode" id="dvE-3x-O9k"/>
+                    <navigationItem key="navigationItem" title="我" id="BPk-qm-gOc"/>
                     <connections>
                         <outlet property="keywordBtn" destination="Ajr-Tc-Lmh" id="sLC-VY-B4x"/>
                         <outlet property="keywordView" destination="XE1-Hz-t0H" id="7xG-hd-7yc"/>
@@ -380,20 +357,61 @@
                         <outlet property="remoteCount" destination="Izr-xm-Diz" id="dMQ-iS-v8Y"/>
                         <outlet property="remoteLable" destination="4LG-W6-XTz" id="JU0-Sy-MLK"/>
                         <outlet property="rootView" destination="Esb-Cf-Fyi" id="Yuw-rf-1lx"/>
+                        <outlet property="seperator" destination="LmB-mO-szA" id="58R-X0-Alx"/>
                         <outlet property="syncBtn" destination="N28-Sz-daR" id="edT-fn-wxQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nfs-Ir-gZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="804" y="741"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="1NI-KX-o3d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GBg-8t-cab" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="iconfont-setting" id="dvE-3x-O9k"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MSH-mO-c9K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aAz-1X-NYl" kind="relationship" relationship="rootViewController" id="zcQ-J3-tJf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DLS-Fq-jfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="-8" y="741"/>
+        </scene>
+        <!--采集-->
+        <scene sceneID="p7j-Cj-Btj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kah-80-Tfq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="采集" image="iconfont-collect" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IeP-IO-dwJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="mC3-80-KKA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TaF-bx-0gQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1562" y="360"/>
         </scene>
     </scenes>
     <resources>
         <image name="bg_radius_white_btn" width="140" height="64"/>
         <image name="ic_arrow" width="14" height="24"/>
-        <image name="iconfont-kebiao" width="29" height="29"/>
-        <image name="iconfont-richeng" width="29" height="29"/>
-        <image name="iconfont-wode" width="29" height="29"/>
+        <image name="iconfont-collect" width="29" height="29"/>
+        <image name="iconfont-discover" width="29" height="29"/>
+        <image name="iconfont-setting" width="29" height="29"/>
         <image name="night_sky3" width="720" height="504"/>
     </resources>
 </document>
