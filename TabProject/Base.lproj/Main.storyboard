@@ -8,7 +8,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--发现-->
+        <!--Discover-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="DiscoverViewController" sceneMemberID="viewController">
@@ -45,7 +45,7 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" text="" placeholder="输入关键词，比如美女、校花" translatesAutoresizingMaskIntoConstraints="NO" id="2fG-6u-IIr">
+                            <searchBar contentMode="redraw" text="" placeholder="Input keyword，like model, girl" translatesAutoresizingMaskIntoConstraints="NO" id="2fG-6u-IIr">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <animations/>
                                 <constraints>
@@ -68,7 +68,7 @@
                             <constraint firstItem="2fG-6u-IIr" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="qKm-uL-1Hv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="发现" image="iconfont-discover" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Discover" image="iconfont-discover" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="imageCollection" destination="gmY-OO-EFo" id="LEy-5g-6PH"/>
                         <outlet property="inputKeyword" destination="2fG-6u-IIr" id="lcg-v0-u5j"/>
@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--采集-->
+        <!--Collection-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="CollectViewController" sceneMemberID="viewController">
+                <viewController title="Collection" id="8rJ-Kc-sve" customClass="CollectViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -118,7 +118,7 @@
                             <constraint firstItem="ceH-D3-zBP" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="-60" id="v5V-Ix-fIz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="采集" id="XMb-YR-Y36"/>
+                    <navigationItem key="navigationItem" title="Collection" id="XMb-YR-Y36"/>
                     <connections>
                         <outlet property="collectionView" destination="ceH-D3-zBP" id="vkz-sq-HPT"/>
                     </connections>
@@ -127,10 +127,10 @@
             </objects>
             <point key="canvasLocation" x="2374" y="360"/>
         </scene>
-        <!--图片详情-->
+        <!--Picture Detail-->
         <scene sceneID="9rI-6Z-XRu">
             <objects>
-                <viewController title="图片详情" id="Gsj-DG-yg6" sceneMemberID="viewController">
+                <viewController title="Picture Detail" id="Gsj-DG-yg6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0m3-XA-Md0"/>
                         <viewControllerLayoutGuide type="bottom" id="9Ke-eb-Rle"/>
@@ -167,10 +167,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--我-->
+        <!--Mine-->
         <scene sceneID="aRC-Mn-hZ4">
             <objects>
-                <viewController id="aAz-1X-NYl" customClass="MineViewController" sceneMemberID="viewController">
+                <viewController title="Mine" id="aAz-1X-NYl" customClass="MineViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="etT-oT-M5o"/>
                         <viewControllerLayoutGuide type="bottom" id="QWG-UX-1An"/>
@@ -205,11 +205,11 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Uw-w8-m9d" userLabel="number_layout">
                                         <rect key="frame" x="-1" y="192" width="600" height="60"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="采集数量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8w-Dh-YWQ">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8w-Dh-YWQ">
                                                 <rect key="frame" x="23" y="20" width="68" height="21"/>
                                                 <animations/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="72" id="Uog-96-NVx"/>
+                                                    <constraint firstAttribute="width" constant="80" id="Uog-96-NVx"/>
                                                     <constraint firstAttribute="height" constant="21" id="gdm-mY-vip"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -278,7 +278,7 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XE1-Hz-t0H" userLabel="设置查询View">
                                         <rect key="frame" x="-1" y="283" width="600" height="63"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="设置启动查询关键词" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ku-gz-zyD">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Set default keyword " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ku-gz-zyD">
                                                 <rect key="frame" x="28" y="21" width="153" height="21"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -349,7 +349,7 @@
                             <constraint firstItem="Esb-Cf-Fyi" firstAttribute="top" secondItem="XuZ-Hc-2Zv" secondAttribute="top" id="rQg-Ni-Fhr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="我" id="BPk-qm-gOc"/>
+                    <navigationItem key="navigationItem" title="Mine" id="BPk-qm-gOc"/>
                     <connections>
                         <outlet property="keywordBtn" destination="Ajr-Tc-Lmh" id="sLC-VY-B4x"/>
                         <outlet property="keywordView" destination="XE1-Hz-t0H" id="7xG-hd-7yc"/>
@@ -365,11 +365,11 @@
             </objects>
             <point key="canvasLocation" x="804" y="741"/>
         </scene>
-        <!--我的-->
+        <!--Mine-->
         <scene sceneID="1NI-KX-o3d">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GBg-8t-cab" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" image="iconfont-setting" id="dvE-3x-O9k"/>
+                    <tabBarItem key="tabBarItem" title="Mine" image="iconfont-setting" id="dvE-3x-O9k"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MSH-mO-c9K">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -385,11 +385,11 @@
             </objects>
             <point key="canvasLocation" x="-8" y="741"/>
         </scene>
-        <!--采集-->
+        <!--Collection-->
         <scene sceneID="p7j-Cj-Btj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kah-80-Tfq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="采集" image="iconfont-collect" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Collection" image="iconfont-collect" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IeP-IO-dwJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

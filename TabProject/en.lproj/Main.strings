@@ -3,25 +3,25 @@
 "1ku-gz-zyD.text" = "设置启动查询关键词";
 
 /* Class = "UISearchBar"; placeholder = "Input keyword，like model, girl"; ObjectID = "2fG-6u-IIr"; */
-"2fG-6u-IIr.placeholder" = "输入关键词查询，比如车模、校花";
+"2fG-6u-IIr.placeholder" = "Input keyword，like model, girl";
 
 /* Class = "UILabel"; text = "云端"; ObjectID = "4LG-W6-XTz"; */
 "4LG-W6-XTz.text" = "云端";
 
 /* Class = "UIViewController"; title = "Collection"; ObjectID = "8rJ-Kc-sve"; */
-"8rJ-Kc-sve.title" = "采集";
+"8rJ-Kc-sve.title" = "Collection";
 
 /* Class = "UIButton"; normalTitle = "关键词"; ObjectID = "Ajr-Tc-Lmh"; */
 "Ajr-Tc-Lmh.normalTitle" = "关键词";
 
 /* Class = "UINavigationItem"; title = "Mine"; ObjectID = "BPk-qm-gOc"; */
-"BPk-qm-gOc.title" = "我";
+"BPk-qm-gOc.title" = "Mine";
 
 /* Class = "UILabel"; text = "采集数量"; ObjectID = "D8w-Dh-YWQ"; */
 "D8w-Dh-YWQ.text" = "采集数量";
 
 /* Class = "UIViewController"; title = "Picture Detail"; ObjectID = "Gsj-DG-yg6"; */
-"Gsj-DG-yg6.title" = "图片详情";
+"Gsj-DG-yg6.title" = "Picture Detail";
 
 /* Class = "UILabel"; text = "查询中"; ObjectID = "Izr-xm-Diz"; */
 "Izr-xm-Diz.text" = "查询中";
@@ -33,16 +33,16 @@
 "OS9-AB-pdE.text" = "查询中";
 
 /* Class = "UINavigationItem"; title = "Collection"; ObjectID = "XMb-YR-Y36"; */
-"XMb-YR-Y36.title" = "采集";
+"XMb-YR-Y36.title" = "Collection";
 
 /* Class = "UIViewController"; title = "Mine"; ObjectID = "aAz-1X-NYl"; */
-"aAz-1X-NYl.title" = "我";
+"aAz-1X-NYl.title" = "Mine";
 
 /* Class = "UITabBarItem"; title = "Discover"; ObjectID = "acW-dT-cKf"; */
-"acW-dT-cKf.title" = "发现";
+"acW-dT-cKf.title" = "Discover";
 
 /* Class = "UITabBarItem"; title = "Collection"; ObjectID = "cPa-gy-q4n"; */
-"cPa-gy-q4n.title" = "采集";
+"cPa-gy-q4n.title" = "Collection";
 
 /* Class = "UITabBarItem"; title = "Mine"; ObjectID = "dvE-3x-O9k"; */
-"dvE-3x-O9k.title" = "我";
+"dvE-3x-O9k.title" = "Mine";
